@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CryptoInfo</string>
+    <string name="title_currency_detail">Currency Details</string>
+</resources>
