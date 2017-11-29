@@ -50,7 +50,7 @@ public class CurrencyListActivity extends AppCompatActivity implements JsonRespo
          */
         //jsonRequest = new Network("https://www.cryptocompare.com/api/data/coinlist/");
 
-        // already calling this API Successfully
+        // Call the API
         jsonRequest = new Network("https://api.coinmarketcap.com/v1/ticker/");
         jsonRequest.delegate = this;
         jsonRequest.execute();
